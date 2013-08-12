@@ -418,6 +418,8 @@ ul.news{
 	-webkit-border-radius: 6px 0 0 6px;
     -moz-border-radius: 6px 0 0 6px;
     border-radius: 6px 0 0 6px;
+	-webkit-box-shadow: 0 0 3px 3px #d5d5d5 inset; 
+	-moz-box-shadow: 0 0 3px 3px #d5d5d5 inset; 
 	box-shadow: 0 0 3px 3px #d5d5d5 inset; 
 }
 
