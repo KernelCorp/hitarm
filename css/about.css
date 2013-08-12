@@ -1,0 +1,33 @@
+
+body{
+	font-family: "Arial"
+}
+
+.content{
+	margin-right: 276px;
+	margin-left: 256px;
+}
+
+.content h1{
+	
+	color: #015da4;
+}
+
+.content p{
+	font-size: 12pt;
+	line-height: 25px;
+}
+
+.content p, div.content div.picture-container{
+	margin-left: 20px;
+}
+
+.content .picture-container{
+	float: left;
+	padding: 5px 15px 5px 15px;
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border: 1px solid #c5c5c5;
+	margin: 5px 25px 5px 0;
+}
