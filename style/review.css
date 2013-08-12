@@ -1,0 +1,51 @@
+.content-box{
+	font-size:80%;
+}
+.page-title{
+	color: #015da4;
+}
+.review-title{
+	height: 30px;
+	width: 100%;
+	background-color: #dceefc;
+	color: #5ab0f2;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.review-title img{
+	float: left;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+.author-name{
+	float: left;
+	margin-left: 10px;
+	height: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.review-time{
+	float: right;
+	height: 25px;;
+	display: inline-block;
+	vertical-align: middle;
+}
+.clear{
+	clear: both;
+}
+.review-body p{
+	clear: both;	
+	padding: 0px 15px;
+}
+.form-container{
+	background-color: #3c9be4;
+	color: #ffffff;
+	font-size: 140%;
+}
+.form-container p{
+	margin-bottom: -5px;
+}
+.form-container{
+	border-radius: 5px;
+	padding: 0px 25px;
+}
