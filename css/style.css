@@ -151,12 +151,19 @@ input {
 
 /* Middle
 -----------------------------------------------------------------------------*/
+.middle{
+	margin-right: 265px;
+	margin-left: 245px;
+	position: absolute;
+}
+
 #content {
 	padding: 0 0 57px;
 }
 .content-box{
 	width: 1194px;
 	height: 2012px;
+	position: relative;
 }
 .nav {
     height: 74px;
@@ -291,6 +298,9 @@ input {
 }
 
 
+.block h2{
+	margin-top: 10px;
+}
 
 .rounded-block-blue h2  a{
 	text-decoration: none;
@@ -408,6 +418,8 @@ ul.news{
 	-webkit-border-radius: 6px 0 0 6px;
     -moz-border-radius: 6px 0 0 6px;
     border-radius: 6px 0 0 6px;
+	-webkit-box-shadow: 0 0 3px 3px #d5d5d5 inset; 
+	-moz-box-shadow: 0 0 3px 3px #d5d5d5 inset; 
 	box-shadow: 0 0 3px 3px #d5d5d5 inset; 
 }
 
@@ -562,27 +574,30 @@ ul.deals-files{
 
 /* Footer
 -----------------------------------------------------------------------------*/
+
 #footer {
     height: 35px;
     padding-top: 22px;
     margin-top: -57px;
 }
 
-#footer p {
-    color: #333;
-    line-height: 57px;
-    font-size: 12px;
-    margin: 0 32px;
-    text-align: center;
-}
-
 #footer a {
     color: #333;
 }
 
-.pull-right {
-    float: right;
-}
-.pull-left {
+.copy {
     float: left;
+    margin-left: 32px;
 }
+
+.develop {
+    float: right;
+    margin-right: 32px;
+
+}
+
+.develop img {
+    vertical-align: middle;
+}
+
+#footer a img {vertical-align: middle; border: none;}
