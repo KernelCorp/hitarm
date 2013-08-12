@@ -1,5 +1,6 @@
-.content-box{
-	font-size:80%;
+.content-box-inner{
+	float: left;
+	margin-left: 17px;
 	width: 700px;
 }
 .page-title{
