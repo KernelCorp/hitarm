@@ -151,12 +151,19 @@ input {
 
 /* Middle
 -----------------------------------------------------------------------------*/
+.middle{
+	margin-right: 250px;
+	margin-left: 250px;
+	position: absolute;
+}
+
 #content {
 	padding: 0 0 57px;
 }
 .content-box{
 	width: 1194px;
 	height: 2012px;
+	position: relative;
 }
 .nav {
     height: 74px;
@@ -291,6 +298,9 @@ input {
 }
 
 
+.block h2{
+	margin-top: 10px;
+}
 
 .rounded-block-blue h2  a{
 	text-decoration: none;

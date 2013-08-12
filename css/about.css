@@ -3,26 +3,26 @@ body{
 	font-family: "Arial"
 }
 
-.content{
+.middle{
 	margin-right: 276px;
 	margin-left: 256px;
 }
 
-.content h1{
-	
+.middle h1{
+	margin-bottom: 10px;
 	color: #015da4;
 }
 
-.content p{
+.middle p{
 	font-size: 12pt;
 	line-height: 25px;
 }
 
-.content p, div.content div.picture-container{
+.middle p, div.middle div.picture-container{
 	margin-left: 20px;
 }
 
-.content .picture-container{
+.middle .picture-container{
 	float: left;
 	padding: 5px 15px 5px 15px;
 	border-radius: 8px;
