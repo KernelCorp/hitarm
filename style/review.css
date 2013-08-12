@@ -6,7 +6,9 @@
 	color: #015da4;
 }
 .review-title{
-	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 35px;
 	width: 100%;
 	background-color: #dceefc;
 	color: #5ab0f2;
@@ -15,19 +17,19 @@
 }
 .review-title img{
 	float: left;
-	margin-top: 5px;
-	margin-left: 5px;
+	margin-top: 10px;
+	margin-left: 10px;
 }
 .author-name{
 	float: left;
 	margin-left: 10px;
-	margin-top: 7px;
+	margin-top: 11px;
 	height: 25px;
 	display: inline-block;
 	vertical-align: middle;
 }
 .review-time{
-	margin-top: 7px;
+	margin-top: 11px;
 	margin-right: 10px;
 	float: right;
 	height: 25px;;
@@ -38,11 +40,14 @@
 	clear: both;
 }
 .review-body p{
+	margin-top: 20px;
+	line-height: 150%;
 	clear: both;	
 	padding: 0px 15px;
 }
 .form-container{
-	height: 460px;
+	margin-top: 30px;
+	height: 485px;
 	background-color: #3c9be4;
 	color: #ffffff;
 	font-size: 140%;
@@ -52,30 +57,52 @@
 	padding-right: 25px;
 }
 .form-title{
-	margin-bottom: 0px;
+	margin-top: 15px;
+	margin-bottom: 5px;
 }
 .input-name{
+	height: 20px;
 	width: 370px;
 	border-radius: 5px;
 }
 .input-mail{
+	height: 20px;
 	width: 370px;
 	border-radius: 5px;
 }
 .input-text{
-	width: 650px;
-	height: 115px;
+	width: 645px;
+	height: 110px;
 	border-radius: 5px;	
 }
 .capcha{
+	padding-left: 20px;
+	margin-top: 30px;
 	float: right;
 	width: 390px;
 }
+.capcha-title{
+	margin-left: 20px;
+}
+.capcha img{
+	margin-top: -10px;
+	margin-left: 45px;
+}
 .capcha  .note{
+	margin-top: -10px;
+	margin-left: 20px;
 	display: inline-block;
 	font-size: 80%;
 }
+.capcha-input{
+	float: right;
+	width: 180px;
+	height: 20px;
+	border-radius: 5px;
+}
 .capcha .s-button{
+	margin-top: 8px;
+	float: right;
 	border: none;
 	border-left: 1px solid #a0d1f8;
 	border-top: 1px solid #a0d1f8;
@@ -87,9 +114,9 @@
 	background: -o-linear-gradient(top, #008bca, #0a4d7e);
     background: -ms-linear-gradient(top, #008bca, #0a4d7e);
     background: linear-gradient(top, #008bca, #0a4d7e);
-	border-radius: 5px;
+	border-radius: 7px;
 	font-size: 100%;
 	color: #ffffff;
-	height: 30px;
+	height: 25px;
 	width: 160px;	
 }	
