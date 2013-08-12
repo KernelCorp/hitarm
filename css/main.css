@@ -1,0 +1,119 @@
+.container
+{
+	width: 700px;	
+	margin: 40px 34px 0 34px;
+	font-size: 14px;
+	font-family: Arial; 
+}
+
+.block
+{
+	border-top: 1px dashed #dfdede;
+	padding: 0 15px 15px;
+	
+}
+
+.block:first-child
+{
+	border-top: none;
+}
+
+.rubric,
+.galley
+{
+	padding: 15px 0;
+}
+
+.rubric .elem
+{
+	display: inline-block;
+	margin: 0 5px 15px;
+	text-align: center;
+	vertical-align: top;
+	width: 162px;	
+}
+
+.rubric .elem img
+{
+	max-width: 100%;
+	max-height: 134px;
+	border: 1px solid #bbb;
+	
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.rubric .elem a
+{
+	color: #3797e1;
+	font-size: 14px;
+	font-weight: bold;		
+	text-decoration: none;		
+	
+}
+
+.container h1
+{
+	color: #015da4;
+}
+
+#bestsellers
+{
+	padding: 0;
+	margin: 0;
+}
+
+#bestsellers .elem
+{
+	display: block;
+	margin: 0;
+	text-align: center;	
+	width: 150px;
+}
+
+#bestsellers .elem img
+{
+	border: 1px solid #bbb;
+	margin: 5px 0;
+	width: 102;
+	height: 80px;	
+	margin: 0 auto;
+	
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#bestsellers .elem  .button
+{
+	background-image: url('../images/blue_button.png');
+	background-repeat: no-repeat;
+	color: #fff;
+	display: block;		
+	font-weight: bold;
+	margin: 16px auto 0;
+	padding-top: 6px; 
+	text-align: center;
+	text-decoration: none;
+	text-transform: UPPERCASE;
+	height: 21px;
+	width: 89px;
+}
+
+#bestsellers .elem a:first-child
+{
+	color: #3797e1;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;		
+	overflow: hidden;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	height: 32px;
+}
+
+
+
