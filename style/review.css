@@ -1,5 +1,6 @@
 .content-box{
 	font-size:80%;
+	width: 700px;
 }
 .page-title{
 	color: #015da4;
@@ -20,11 +21,14 @@
 .author-name{
 	float: left;
 	margin-left: 10px;
+	margin-top: 7px;
 	height: 25px;
 	display: inline-block;
 	vertical-align: middle;
 }
 .review-time{
+	margin-top: 7px;
+	margin-right: 10px;
 	float: right;
 	height: 25px;;
 	display: inline-block;
@@ -38,14 +42,54 @@
 	padding: 0px 15px;
 }
 .form-container{
+	height: 460px;
 	background-color: #3c9be4;
 	color: #ffffff;
 	font-size: 140%;
-}
-.form-container p{
-	margin-bottom: -5px;
-}
-.form-container{
 	border-radius: 5px;
-	padding: 0px 25px;
+	padding-top: 1px;
+	padding-left: 25px;
+	padding-right: 25px;
 }
+.form-title{
+	margin-bottom: 0px;
+}
+.input-name{
+	width: 370px;
+	border-radius: 5px;
+}
+.input-mail{
+	width: 370px;
+	border-radius: 5px;
+}
+.input-text{
+	width: 650px;
+	height: 115px;
+	border-radius: 5px;	
+}
+.capcha{
+	float: right;
+	width: 390px;
+}
+.capcha  .note{
+	display: inline-block;
+	font-size: 80%;
+}
+.capcha .s-button{
+	border: none;
+	border-left: 1px solid #a0d1f8;
+	border-top: 1px solid #a0d1f8;
+	background: #008bca;
+    background: -moz-linear-gradient(top, #008bca, #0a4d7e);
+    background: -webkit-gradient(linear, left top, left bottom, 
+                color-stop(0%,#008bca), color-stop(100%,#0a4d7e));
+	background: -webkit-linear-gradient(top, #008bca, #0a4d7e);
+	background: -o-linear-gradient(top, #008bca, #0a4d7e);
+    background: -ms-linear-gradient(top, #008bca, #0a4d7e);
+    background: linear-gradient(top, #008bca, #0a4d7e);
+	border-radius: 5px;
+	font-size: 100%;
+	color: #ffffff;
+	height: 30px;
+	width: 160px;	
+}	

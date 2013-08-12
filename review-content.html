@@ -105,26 +105,34 @@
 				Оставить отзыв
 			</p>
 			<p class="form-title">
-				ФИО*
+				ФИО<small>*</small>
 			</p>
-			<input>
+			<input class="input-name">
 			</input>
 			<p class="form-title">
-				E-mail*
+				E-mail<small>*</small>
 			</p>	
-			<input>
+			<input class="input-mail">
 			</input>
 			<p class="form-title">
-				Ваш отзыв
+				Ваш отзыв<small>*</small>
 			</p>
-			<input>
-			</input>			
-			<img src="./images/capcha.png">
-			<input>
-			</input>
-			<input>
+			<input class="input-text">
 			</input>
 		</form>
-	</div>	
+		<div class "capcha-container">	
+			<form class="capcha">
+				Введите код с картинки<br>
+				<img src="./images/capcha.png">
+				<input>
+				</input>
+				<br>
+				<p class="note">*Обязательно для заполнения</p>
+				<input class="s-button" type="submit" value="Отправить">
+				</input>
+			</form>
+		</div>
+		<div class="clear"></div>
+	</div>		
 </div>
 </body>
