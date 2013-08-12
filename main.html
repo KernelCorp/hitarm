@@ -3,8 +3,10 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>Главная</title>	
+		<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css"/>
 		<link rel="stylesheet" type="text/css" href="css/main.css"/>
-		<script type="text/javascript" src="js/functions.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.bxslider.js"></script>
 	</head>
 	<body>
 		<div class='container'>
@@ -97,6 +99,77 @@
 			
 			<div class='block galley'>
 				<h1>Хиты продаж</h1>
+				<ul id='bestsellers' clas='bxslider'>
+					<li>
+						<div class='elem'>
+							<a href='#'>Шаровые краны</a>
+							<img src='images/rubric/krani.png' />
+							<a href='#' class='button'>Заказать</a>
+						</div>
+					</li>
+					<li>	
+						<div class='elem'>
+							<a href='#'>Фланцы</a>
+							<img src='images/rubric/flanci.png' />
+							<a href='#' class='button'>Заказать</a>
+						</div>
+					</li>
+					<li>
+						<div class='elem'>
+							<a href='#'>Канализация. Трубы и фитинги</a>
+							<img src='images/rubric/kanalizaciya.png' />
+							<a href='#' class='button'>Заказать</a>
+						</div>
+					</li>
+					<li>	
+						<div class='elem'>
+							<a href='#'>Конвекторы, радиаторы</a>
+							<img src='images/rubric/konvectori.png' />
+							<a href='#' class='button'>Заказать</a>
+						</div>
+					</li>
+					<li>	
+						<div class='elem'>
+							<a href='#'>Системы очистки воды</a>
+							<img src='images/rubric/ochistka_vodi.png' />							
+							<a href='#' class='button'>Заказать</a>
+						</div>
+					</li>
+					<li>	
+						<div class='elem'>
+							<a href='#'>Трубы, компенсаторы, вибровставки, хомуты</a>
+							<img src='images/rubric/trybi_homyti.png' />							
+							<a href='#' class='button'>Заказать</a>
+						</div>
+					</li>
+					<li>	
+						<div class='elem'>
+							<a href='#'>Насосы</a>
+							<img src='images/rubric/nasosi.png' />							
+							<a href='#' class='button'>Заказать</a>
+						</div>
+					</li>
+					<li>	
+						<div class='elem'>
+							<a href='#'>Санфаянс, смесители, ванны</a>
+							<img src='images/rubric/sanfayans.png' />							
+							<a href='#' class='button'>Заказать</a>
+						</div>
+					</li>
+				</ul>
+				<script type="text/javascript">				
+						$('#bestsellers').bxSlider({
+						  slideWidth: 160,
+						  minSlides: 4,
+						  maxSlides: 4,
+						  slideMargin: 10,
+						  moveSlides: 4,					 
+						  controls: true,
+						  pager: false, // To hide dots in carousel
+						  //auto: true,
+						  //pause: 10000,
+						});				
+				</script>
 			</div>
 		</div>
 	</body>
