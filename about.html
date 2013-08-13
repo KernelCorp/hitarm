@@ -10,6 +10,7 @@
 	<link rel="stylesheet" type="text/css" href="css/about.css"/>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/links.js"></script>
+	<script type="text/javascript" src="js/popover_forms.js"></script>
 </head>
 
 <body>
@@ -52,11 +53,78 @@
                     <li class="last"><a href="#">Контакты</a></li>
                 </ul>
                 <ul class="second-line">
-                    <li class="first"><a href="#">Отправить заявку <img src="images/mail-ico.png" alt="" /></a></li>
-                    <li><a href="#">Заказать обратный звонок <img src="images/tel.png" alt="" /></a></li>
+                    <li class="first"><a href="#" id='send_request'>Отправить заявку <img src="images/mail-ico.png" alt="" /></a></li>
+                    <li><a href="#" id='callback_request'>Заказать обратный звонок <img src="images/tel.png" alt="" /></a></li>
                     <li><a href="#">Сделать заказ <img src="images/tick.png" alt="" /></a></li>
                     <li class="last"><a href="#">Задать вопрос ?</a></li>
                 </ul>
+				
+				<div class='white_fon'>
+				</div>
+				
+				<div class='popover_block user_request'>
+					<img class='close-button' src='images/close.png' />
+					<h2>
+						Отправить заявку 
+						<img src="images/mail-ico.png" alt="">
+					</h2>
+					<form class='form'>
+						<label for='user_fio'>ФИО<sup>*<sup></label>
+						<input id='user_fio' type='text' />
+						
+						<label for='email'>E-mail<sup>*<sup></label>
+						<input id='email' type='text' />
+						
+						<label for='phone'>Телефон<sup>*<sup></label>
+						<input id='phone' type='text' />
+						
+						<label for='message'>Сообщение</label>
+						<textarea id='message'>
+						</textarea>
+						<div class='files_area'>						
+						</div>
+						<br />
+						<div class='capcha'>
+							<a href='#' class='add_file'>Прикрепить файл</a>
+							<h2>Введите код с картинки</h2>
+							<img src="./images/capcha.png" />
+							<input type='text' id='capcha' class='capcha' />
+						</div>
+						<span>* обязательно для заполнения</span>
+						<input type="submit" value="Отправить">
+					</form>
+				</div>
+				
+				<div class='popover_block user_callback'>
+					<img class='close-button' src='images/close.png' />
+					<h2>
+						Заказать обратный звонок 
+						<img src="images/tel.png" alt="">
+					</h2>
+					<form class='form'>
+						<label for='user_fio'>ФИО<sup>*<sup></label>
+						<input id='user_fio' type='text' />
+						
+						<label for='phone'>Телефон<sup>*<sup></label>
+						<input id='phone' type='text' />
+						
+						<label for='message'>Комментарий</label>
+						<textarea id='message'>
+						</textarea>
+						<div>						
+						</div>
+						<br />
+						<div class='capcha'>
+							<h2>Введите код с картинки</h2>
+							<img src="./images/capcha.png" />
+							<input type='text' id='capcha' class='capcha' />
+						</div>
+						<span>* обязательно для заполнения</span>
+						<input type="submit" value="Заказать">
+					</form>
+				</div>
+				
+				
             </div><!-- /nav -->
             <div class="content-box">
 				<div class="left-sidebar">
