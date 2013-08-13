@@ -13,7 +13,14 @@ table.preview tr:first-child{
 	height: 35px;
 }
 
-
+.sitemap{
+	margin-bottom: 5px;
+	color: #aaaaaa
+}
+.sitemap a{
+	color: #77bdf3; 
+	text-decoration: none;
+}
 
 table.preview th:first-child{
 	-webkit-border-radius: 6px 0 0 0;

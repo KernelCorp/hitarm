@@ -75,7 +75,7 @@ input {
 
 .page-header-p {
     float: left;
-    margin: 6px 0 0 255px;
+    margin: 6px 0 0 390px;
     line-height: 38px;
     font-size: 14px;
     color: #fff;
@@ -92,7 +92,7 @@ input {
 .page-header .min-sum {
 	background-color: #54acef;
 	float: right;
-	width: 30%;
+	width: 19%;
     min-width: 240px;
 	-webkit-border-top-left-radius: 10px;
 	-webkit-border-bottom-left-radius: 10px;
@@ -236,6 +236,9 @@ input {
     line-height: 30px;
 }
 
+.nav .second-line img{
+	margin-left: 5px;
+}
 .nav .second-line .first {
     -webkit-border-bottom-left-radius: 10px;
     -moz-border-radius-bottomleft: 10px;
@@ -246,7 +249,7 @@ input {
     -webkit-border-bottom-right-radius: 10px;
     -moz-border-radius-bottomright: 10px;
     border-bottom-right-radius: 10px;
-    padding: 0 59px 0 59px;
+    padding: 0 65px 0 65px;
 }
 
 .content-box {
@@ -261,6 +264,7 @@ input {
 -----------------------------------------------------------------------------*/
 
 .left-sidebar{
+	margin-top: 10px;
 	float: left;
 	width: 230px;
 	position: relative;
@@ -294,6 +298,9 @@ input {
 }
 
 .rounded-block h2{
+	line-height: 110%;
+	font-family: "Trebuchet MS";
+	font-size: 200%;
 	color: #015da4;	
 }
 
@@ -325,7 +332,6 @@ input {
 }
 
 .icon .i {
-	top: 0;
 	left: 0;
 	position: absolute;
 	background-position: 0 0;

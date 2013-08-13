@@ -1,19 +1,11 @@
-.container
-{
-	width: 700px;	
-	margin: 40px 34px 0 34px;
-	font-size: 14px;
-	font-family: Arial; 
-}
-
-.block
+.middle .block
 {
 	border-top: 1px dashed #dfdede;
 	padding: 0 15px 15px;
 	
 }
 
-.block:first-child
+.middle .block:first-child
 {
 	border-top: none;
 }
@@ -27,7 +19,7 @@
 .rubric .elem
 {
 	display: inline-block;
-	margin: 0 5px 15px;
+	margin: 0 2px 15px;
 	text-align: center;
 	vertical-align: top;
 	width: 162px;	
@@ -54,9 +46,10 @@
 	
 }
 
-.container h1
+.middle h1
 {
 	color: #015da4;
+	margin: 15px 0;
 }
 
 #bestsellers
@@ -79,7 +72,7 @@
 	margin: 5px 0;
 	width: 102;
 	height: 80px;	
-	margin: 0 auto;
+	margin: 5px auto 0;
 	
 	-o-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -112,7 +105,7 @@
 	overflow: hidden;
 	text-decoration: none;
 	text-overflow: ellipsis;
-	height: 32px;
+	height: 36px;
 }
 
 

@@ -14,8 +14,17 @@ body{
 }
 
 .middle p{
-	font-size: 12pt;
-	line-height: 25px;
+	font-size: 10pt;
+	line-height: 20px;
+}
+
+.sitemap{
+	margin-bottom: 5px;
+	color: #aaaaaa
+}
+.sitemap a{
+	color: #77bdf3; 
+	text-decoration: none;
 }
 
 .middle p, div.middle div.picture-container{
