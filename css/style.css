@@ -552,7 +552,7 @@ ul.news{
 
 .search-input-wrap {
     display: inline;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .search-input-wrap .i-txt {
