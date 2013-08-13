@@ -295,7 +295,7 @@ input {
 	position: relative;
 }
 .nav {
-    height: 74px;
+    height: 68px;
     margin-top: 18px;
     margin-bottom: 17px;
     background-color: #005ca2;
@@ -309,7 +309,7 @@ input {
 }
 .nav ul li {
     float: left;
-    border: 2px outset #1096d4;
+    border: none;
 }
 
 .nav ul li a {
@@ -324,13 +324,13 @@ input {
 
 .nav ul li:hover {
     background: #4aa5eb;
-    border: 2px solid #4990c5;
+    border: none;
 }
 
 .nav .first-line li {
     height: 36px;
     line-height: 34px;
-    padding: 0 41px;
+    padding: 0 44px;
 }
 .nav .first-line .home {
     padding: 0px 21px;
@@ -350,15 +350,18 @@ input {
     border-top-right-radius: 10px;
 }
 
+.nav .first-line li {
+	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0 ,0.4));
+}
 .nav .first-line li a {
-    line-height: 34px;
+    line-height: 34px;	
 }
 
 .nav .second-line li {
     height: 30px;
     line-height: 30px;
-    padding: 0 57px;
-    background: url(../images/nav-bg.png);
+    padding: 2px 60px 0; 
+    background: url(../images/nav-bg.png) center bottom ;
 }
 
 .nav .second-line li a {
@@ -372,13 +375,14 @@ input {
     -webkit-border-bottom-left-radius: 10px;
     -moz-border-radius-bottomleft: 10px;
     border-bottom-left-radius: 10px;
+	padding: 2px 59px 0;
 }
 
 .nav .second-line .last {
     -webkit-border-bottom-right-radius: 10px;
     -moz-border-radius-bottomright: 10px;
     border-bottom-right-radius: 10px;
-    padding: 0 65px 0 65px;
+    padding: 2px 65px 0 65px;
 }
 
 .content-box {
@@ -575,7 +579,7 @@ ul.news{
 
 .search-submit {
     width: 66px;
-    height: 26px;
+    height: 25px;
     margin: 0 0 0 -2px;
     padding: 0;
     cursor: pointer;
@@ -584,7 +588,7 @@ ul.news{
 	font-size: 11pt;
 	padding-right: 5px;
 	color: #ffffff;
-	line-height: 30px;
+	line-height: 20px;
 	font-weight: bold;
 	-webkit-box-shadow: -1px -1px #9ccff8, 1px 1px #3974a1;
 	-moz-box-shadow: -1px -1px #9ccff8, 1px 1px #3974a1;
